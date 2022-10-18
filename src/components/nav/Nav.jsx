@@ -6,13 +6,13 @@ import { ImBooks } from "react-icons/im";
 import { useState } from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#top");
   return (
     <nav>
       <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        href="#top"
+        onClick={() => setActiveNav("#top")}
+        className={activeNav === "#top" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>
