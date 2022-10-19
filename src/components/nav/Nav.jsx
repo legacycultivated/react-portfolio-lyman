@@ -2,6 +2,7 @@ import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { BiUserCircle, BiMessageAltDetail } from "react-icons/bi";
+import { BsAward } from "react-icons/bs";
 import { ImBooks } from "react-icons/im";
 import { useState } from "react";
 
@@ -22,6 +23,13 @@ const Nav = () => {
         className={activeNav === "#about" ? "active" : ""}
       >
         <BiUserCircle />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
+        <BsAward />
       </a>
       <a
         href="#projects"
