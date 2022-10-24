@@ -20,7 +20,7 @@ const data = [
     image: IMG2,
     title: "myFlix Movie Application",
     github: "https://github.com/legacycultivated/myFlix-client",
-    demo: "",
+    demo: "#",
   },
   {
     id: 3,
@@ -59,96 +59,35 @@ const Projects = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="meet project" />
-          </div>
+        {data.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio_item">
+              <div className="portfolio_item-image">
+                <img src={image} alt={title} />
+              </div>
 
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="#home" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="meet project" />
-          </div>
-
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="#home" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="meet project" />
-          </div>
-
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="#home" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="meet project" />
-          </div>
-
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="#home" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="meet project" />
-          </div>
-
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="#home" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG1} alt="meet project" />
-          </div>
-
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="#home" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
+              <h3>{title}</h3>
+              <div className="portfolio_item-cta">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
