@@ -15,12 +15,89 @@ const Projects = () => {
           </div>
 
           <h3>This is a portfolio item title</h3>
-          <a href="github.com" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="#home" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item-cta">
+            <a href="github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="#home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={IMG1} alt="meet project" />
+          </div>
+
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio_item-cta">
+            <a href="github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="#home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={IMG1} alt="meet project" />
+          </div>
+
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio_item-cta">
+            <a href="github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="#home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={IMG1} alt="meet project" />
+          </div>
+
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio_item-cta">
+            <a href="github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="#home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={IMG1} alt="meet project" />
+          </div>
+
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio_item-cta">
+            <a href="github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="#home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={IMG1} alt="meet project" />
+          </div>
+
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio_item-cta">
+            <a href="github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="#home" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
