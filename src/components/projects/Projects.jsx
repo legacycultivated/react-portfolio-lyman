@@ -12,6 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Meet Project Application",
+    tech: "React.js, AWS, Google Cloud Platform, Jest, Enzyme, Recharts",
     github: "https://github.com/legacycultivated/meet-app",
     demo: "https://legacycultivated.github.io/meet-app/",
   },
@@ -19,6 +20,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: "myFlix Movie Application",
+    tech: "MongoDB, Express, React.js, Node.js, HTTP & JWT Authentication",
     github: "https://github.com/legacycultivated/myFlix-client",
     demo: "#",
   },
@@ -26,6 +28,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: "PokeAPI Project",
+    tech: "Javascript, jQuery, HTML, CSS - Bootstrap",
     github: "https://github.com/legacycultivated/pokedex-js-project",
     demo: " https://legacycultivated.github.io/pokedex-js-project/",
   },
@@ -33,6 +36,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: "TinDog Landing Page",
+    tech: "HTML5, CSS - Bootstrap",
     github: "https://github.com/legacycultivated/TinDogLandingPage",
     demo: "https://legacycultivated.github.io/TinDogLandingPage/",
   },
@@ -40,6 +44,7 @@ const data = [
     id: 5,
     image: IMG5,
     title: "Bootstrap Web Developer Portfolio",
+    tech: "Javascript, HTML, CSS - Bootstrap",
     github: "https://github.com/MJTCdev/Portfolio",
     demo: "#",
   },
@@ -47,6 +52,7 @@ const data = [
     id: 6,
     image: IMG6,
     title: "Youtube App",
+    tech: "TBD",
     github: "#",
     demo: "#",
   },
@@ -59,7 +65,7 @@ const Projects = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, tech, github, demo }) => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
@@ -67,6 +73,7 @@ const Projects = () => {
               </div>
 
               <h3>{title}</h3>
+              <h5>{tech}</h5>
               <div className="portfolio_item-cta">
                 <a
                   href={github}
