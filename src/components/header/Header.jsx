@@ -11,7 +11,14 @@ const Header = () => {
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Lyman Chan</h1>
-        <h5 className="text-light typed">Fullstack Developer</h5>
+        <Typewriter
+          className="text-light typed"
+          options={{
+            strings: ["Fullstack Developer", "Freelancer", "Registered Nurse"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
         <CTA />
         <HeaderSocials />
 
