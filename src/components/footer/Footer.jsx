@@ -38,6 +38,10 @@ const Footer = () => {
           <BsTwitter />
         </a>
       </div>
+
+      <div className="footer_copyright">
+        <small>&copy; Lyman Chan. All rights reserved.</small>
+      </div>
     </footer>
   );
 };
