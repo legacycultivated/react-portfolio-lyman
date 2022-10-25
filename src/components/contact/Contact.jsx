@@ -2,6 +2,28 @@ import React from "react";
 import "./contact.css";
 import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm(
+      "YOUR_SERVICE_ID",
+      "YOUR_TEMPLATE_ID",
+      form.current,
+      "YOUR_PUBLIC_KEY"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+};
 
 const Contact = () => {
   return (
