@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio-lyman",
+  "homepage": "https://portfolio.lymanchan.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
