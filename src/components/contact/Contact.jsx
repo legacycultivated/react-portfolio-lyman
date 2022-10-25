@@ -3,29 +3,32 @@ import "./contact.css";
 import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
-
-const sendEmail = (e) => {
-  e.preventDefault();
-
-  emailjs
-    .sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
-      form.current,
-      "YOUR_PUBLIC_KEY"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-};
+import emailjs, { send } from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_fnv6nhi",
+        "template_4bsaldo",
+        form.current,
+        "YiY3gfYCv2cSRz5Ff"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message Sent!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -64,7 +67,7 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
