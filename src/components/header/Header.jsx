@@ -4,13 +4,16 @@ import CTA from "./CTA";
 import ME from "../../assets/star-gaze.jpg";
 import HeaderSocials from "./HeaderSocials";
 import Typewriter from "typewriter-effect";
+import { FaReact } from "react-icons/fa";
 
 const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h1>Lyman Chan</h1>
+        <h5>
+          Welcome to my Portfolio built with React.js <FaReact />
+        </h5>
+        <h1>I'm Lyman Chan</h1>
         <Typewriter
           className="text-light typed"
           options={{
