@@ -36,17 +36,17 @@ const About = () => {
           </div>
 
           <p>
-            Working as a Registered Nurse for over 7 years was invaluable in
-            helping me develop skills such as community engagement, empathy,
-            time management, teamwork/collaboration, the importance of work
-            ethic, accountability and communication. Through my
-            professional/personal experience I produce applications and products
-            that are centered on the needs of the clients and the goals of the
-            company/stakeholders. I chose to transition into Web Development
-            because of the many opportunities to learn new skills, languages,
-            and innovative technologies. I have developed applications from
-            server-side to the client-side components giving me the full scope
-            of the responsibilities a web developer might have in the field.
+            Working as a Registered Nurse for over 7 years I have developed
+            skills such as community engagement, empathy, time management,
+            teamwork and collaboration, the importance of work ethic,
+            accountability and communication. Through my professional/personal
+            experience I produce applications and products that are centered on
+            the needs of the clients and the goals of the company/stakeholders.
+            I chose to transition into Web Development because of the many
+            opportunities to learn new skills, languages, and innovative
+            technologies. I have developed applications from server-side to the
+            client-side components giving me the full scope of the
+            responsibilities a web developer might have in the field.
           </p>
           <a href="contact" className="btn btn-primary">
             Contact Me
