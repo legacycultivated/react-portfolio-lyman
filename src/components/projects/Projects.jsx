@@ -4,7 +4,7 @@ import IMG1 from "../../assets/meet-1.png";
 import IMG2 from "../../assets/myFlixScreenshot.png";
 import IMG3 from "../../assets/pokeApi.png";
 import IMG4 from "../../assets/tindog-1.png";
-import IMG5 from "../../assets/wireframe.jpg";
+import IMG5 from "../../assets/Bootstrap Portfolio-2.png";
 import IMG6 from "../../assets/code-pic.jpg";
 
 const data = [
