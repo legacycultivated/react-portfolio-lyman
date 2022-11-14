@@ -46,7 +46,7 @@ const data = [
     title: "Bootstrap Web Developer Portfolio",
     tech: "Javascript, HTML, CSS - Bootstrap",
     github: "https://github.com/MJTCdev/Portfolio",
-    demo: "#",
+    demo: "https://mjtcdev.github.io/Portfolio/",
   },
   {
     id: 6,
