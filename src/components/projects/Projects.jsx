@@ -51,7 +51,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Youtube App",
+    title: "E-Commerce Site in React",
     tech: "TBD",
     github: "#",
     demo: "#",
