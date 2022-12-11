@@ -22,7 +22,6 @@ const data = [
     title: "myFlix Movie Application",
     tech: "MongoDB, Express, React.js, Node.js, HTTP & JWT Authentication",
     github: "https://github.com/legacycultivated/myFlix-client",
-    demo: "https://63733da109b24c0e1dbc43c0--starlit-khapse-191190.netlify.app/",
   },
   {
     id: 3,
