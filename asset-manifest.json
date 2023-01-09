@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-lyman/static/css/main.ca9eace4.css",
+    "main.js": "/react-portfolio-lyman/static/js/main.2b276648.js",
+    "static/media/Bootstrap Portfolio-2.png": "/react-portfolio-lyman/static/media/Bootstrap Portfolio-2.42ea69b52aeed23ea82c.png",
+    "static/media/myFlixScreenshot.png": "/react-portfolio-lyman/static/media/myFlixScreenshot.3688f16b6de21a4e3ca5.png",
+    "static/media/star-gaze.jpg": "/react-portfolio-lyman/static/media/star-gaze.190a511ec52952c5c4fe.jpg",
+    "static/media/tindog-1.png": "/react-portfolio-lyman/static/media/tindog-1.5aade366a86338e1baaf.png",
+    "static/media/meet-1.png": "/react-portfolio-lyman/static/media/meet-1.691c946f5ab980281184.png",
+    "static/media/code-pic.jpg": "/react-portfolio-lyman/static/media/code-pic.8090e61ca2fa6309bd5a.jpg",
+    "static/media/pokeApi.png": "/react-portfolio-lyman/static/media/pokeApi.b2f00522f1450a923d7f.png",
+    "static/media/LC_Resume.pdf": "/react-portfolio-lyman/static/media/LC_Resume.fc562847831fa9b18799.pdf",
+    "static/media/Avatar.svg": "/react-portfolio-lyman/static/media/Avatar.6c014dc5953e2c30dbb65c73bff9993d.svg",
+    "index.html": "/react-portfolio-lyman/index.html",
+    "main.ca9eace4.css.map": "/react-portfolio-lyman/static/css/main.ca9eace4.css.map",
+    "main.2b276648.js.map": "/react-portfolio-lyman/static/js/main.2b276648.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca9eace4.css",
+    "static/js/main.2b276648.js"
+  ]
+}
